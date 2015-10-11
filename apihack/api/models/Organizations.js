@@ -10,15 +10,7 @@ module.exports = {
   attributes: {
   	name: { type: 'string' },
   	email: { type: 'string' },
-  	password: { type: 'string' },
-  	places: {
-  		collection: 'Places',
-  		via: 'organization'
-  	},
-  	events: {
-  		collection: 'Events',
-  		via: 'organization'
-  	}
+  	password: { type: 'string' }
   }
 };
 

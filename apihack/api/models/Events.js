@@ -12,10 +12,6 @@ module.exports = {
   	place: { model: 'Places' },
   	initialTime: { type: 'datetime' },
   	finishTime: { type: 'datetime' },
-  	activities: {
-  		collection: 'Activities',
-  		via: 'event'
-  	},
   	organization: { model: 'Organizations' }
   }
 };

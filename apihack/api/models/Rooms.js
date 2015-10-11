@@ -10,11 +10,7 @@ module.exports = {
   attributes: {
   	name: { type: 'string' },
   	beaconFactoryID: { type: 'string' },
-  	place: { model: 'Places' },
-  	activities: {
-  		collection: 'Activities',
-  		via: 'room'
-  	}
+  	place: { model: 'Places' }
   }
 };
 
