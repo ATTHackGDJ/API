@@ -28,7 +28,8 @@ module.exports = function(req, res) {
 							name: data.name
 						}]
 					})
-					.set('Authorization', 'Token token=937abb7296a1a28e8e88329b0b9b9067');
+					.set('Authorization', 'Token token=937abb7296a1a28e8e88329b0b9b9067')
+					.end(function (e, r) {});
 			});
 	}
 	return blueprintCreate(req, res);
